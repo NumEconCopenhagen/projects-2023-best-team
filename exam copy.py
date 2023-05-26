@@ -324,5 +324,4 @@ plt.grid(True)
 plt.text(0.5, 0.9, f'Iterations: {avg_iterations}', transform=plt.gca().transAxes, ha='center', va='center', fontsize=12)
 
 plt.show()
-
 #q.3.2.
