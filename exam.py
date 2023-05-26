@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sympy as sp
-from scipy.optimize import minimize
+from scipy.optimize import minimize, fsolve
 #Q1.1
 def q11_solve_equation():
     # We write up our paramaters as symbols
