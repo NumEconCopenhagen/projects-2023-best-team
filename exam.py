@@ -4,7 +4,7 @@ import sympy as sp
 from scipy.optimize import minimize
 #Q1.1
 def q11_solve_equation():
-    # Define the symbols
+    # We write up our paramaters as symbols
     C, L, w, tau, alpha, nu, kappa, G = sp.symbols('C L w tau alpha nu kappa G')
 
     # Define tilde{w}
@@ -26,13 +26,13 @@ def q11_solve_equation():
 
 
 #Q1.2.
-# define the parameter values
+# The initial paramters we were given are:
 alpha = 0.5
 nu = 1 / (2 * 16**2)
 kappa = 1
 tau = 0.3
 
-# define a function for optimal labor supply
+# We write up the equilibrium L
 def L_star(w, tau, kappa, alpha, nu):
     w_tilde = (1 - tau) * w
     return (-kappa + np.sqrt(kappa**2 + 4 * (alpha / nu) * w_tilde**2)) / (2 * w_tilde)
