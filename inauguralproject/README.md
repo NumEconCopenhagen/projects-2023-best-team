@@ -2,6 +2,6 @@
 
 The **results** of the project can be seen from running [inauguralprojectCORRECTED.ipynb](inauguralproject.ipynb).
 
-The answers refer to inauguralproject3.py
+The answers refer to inauguralproject2.py
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires no further packages.
